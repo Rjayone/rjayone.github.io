@@ -5,13 +5,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>WRD</title>
     <link rel="icon" type="image/png" href="static/favicon.png">
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/styles.css">    
+    <script src="scripts/scripts.js"></script>
 </head>
 <body>
     <div class="logo"></div>
-    <p>What to import pack?</p>
 
-    <button id="open_in_app" class="button">Open in WRD app</button>
+    <div class="button-container">
+        <a href="" id="open_in_app" class="app-button">OPEN WRD</a>
+    </div>
 
     <div class="button-container">
         <a href="https://play.google.com/store/apps/details?id=com.incredum.wrd" class="button">
@@ -21,6 +23,7 @@
             <img src="static/appstore.png" alt="Download on the App Store">
         </a>
     </div>
-    <script src="scripts/scripts.js"></script>
+    <div id="wrd_frame_cont">
+    </div>
 </body>
 </html>

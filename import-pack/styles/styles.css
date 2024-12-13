@@ -1,4 +1,3 @@
-
 body {
     display: flex;
     flex-direction: column;
@@ -16,11 +15,11 @@ body {
     background-image: url('../static/logo.png');
     background-size: cover;
     background-position: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 .button-container {
-/*            display: flex;*/
+    display: flex;
     gap: 20px;
 }
 
@@ -37,4 +36,35 @@ body {
 
 .button img:hover {
     transform: scale(1.02);
+}
+
+a.app-button {
+    background-color: #8347FF;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    font-weight: 500; /* Poppins-Medium */
+    padding: 20px 40px;
+    border: none;
+    border-radius: 32px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    text-decoration: none;
+    margin: 20px;
+    margin-bottom: 50px;
+    transition: transform 0.3s ease;
+}
+
+a.app-button:hover {
+    transform: scale(1.02);
+}
+
+a.custom-button:hover {
+    background-color: #6d38d1;
+}
+
+#wrd_frame_cont {
+  position: absolute;
+  left: -10000px;
+  top: -10000px;
 }
