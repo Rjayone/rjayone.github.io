@@ -1,0 +1,40 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+}
+
+.logo {
+    width: 250px;
+    height: 250px;
+    background-image: url('../static/logo.png');
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 100px;
+}
+
+.button-container {
+/*            display: flex;*/
+    gap: 20px;
+}
+
+.button-container {
+    display: flex;
+    gap: 20px;
+}
+
+.button img {
+    width: 150px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.button img:hover {
+    transform: scale(1.02);
+}
